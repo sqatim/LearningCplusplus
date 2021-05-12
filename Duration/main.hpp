@@ -5,4 +5,11 @@
 
 bool operator==(Duration const& a, Duration const& b);
 bool operator!=(Duration const& a, Duration const& b);
+bool operator<(Duration const& a, Duration const& b);
+bool operator>(Duration const& a, Duration const& b);
+bool operator<=(Duration const &a, Duration const &b);
+bool operator>=(Duration const &a, Duration const &b);
+Duration operator+(Duration const&a, Duration const& b);
+Duration operator-(Duration const&a, Duration const& b);
+
 #endif
